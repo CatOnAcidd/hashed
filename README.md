@@ -1,6 +1,9 @@
 # hashed
 Simple scripts aimed monitoring a directory for any changes.
 
+> [!NOTE]
+> Both scripts use the tqdm package to show a progress bar when scanning larger directories, this can be installed with "pip install tqdm"
+
 ## Create Baseline
 The generate.py script can be used to create a baseline of your chosen directory. The script has some basic functionality to show progress when scanning larger directories. The baseline should be securely stored in a read-only location where possible.
 
