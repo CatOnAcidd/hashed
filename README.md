@@ -5,10 +5,10 @@ Simple scripts aimed monitoring a directory for any changes.
 The generate.py script can be used to create a baseline of your chosen directory. The script has some basic functionality to show progress when scanning larger directories. The baseline should be securely stored in a read-only location where possible.
 
 ### Options
-'''
+```
 **-d**  Path to the directory you want to scan
 **-o**  Path and filename for the baseline output
-'''
+```
 
 ### Example Usage
 python.exe .\generate.py -d c:\path\to\directory -o c:\hashed\output\baseline.csv
